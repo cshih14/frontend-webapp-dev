@@ -1,0 +1,112 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #000000;
+}
+
+section {
+    border: 2px solid #000000;
+    background-color: #cacaca;
+    margin: 16px 20px;
+}
+
+.title {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.mobile-title {
+    font-size: large;
+    font-family: Georgia;
+    margin: 16px 20px;
+    text-align: left;
+    display: none;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.header-1, .header-2, .header-3 {
+    font-size: large;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 2px 20px;
+    margin: 0px;
+}
+
+.header-1 {
+    background-color: #ff9898;
+}
+
+.header-2, .header-2 > .mobile-header {
+    background-color: #ab0101;
+    color: #FFFFFF;
+}
+
+.header-3 {
+    background-color: #fae28a;
+}
+
+.content {
+    margin: 2px;
+    padding: 4px 8px 4px 8px;
+    clear: right;
+    overflow: hidden;
+    height: 150px;
+}
+
+.content:hover {
+    overflow-y: scroll;
+    cursor: row-resize
+}
+
+.col {
+    float: left;
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+}
+  
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .header-1, .header-2, .header-3 {
+        float: right;
+    }
+}
+  
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .header-1, .header-2, .header-3 {
+        float: right;
+    }
+}
+
+  
+/********** Mobile only **********/
+@media (max-width: 767px) {
+    .title {
+        display: none;
+    }
+    .mobile-title, .mobile-header {
+        display: inline;
+    }
+}
+  
