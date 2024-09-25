@@ -20,7 +20,7 @@
   //   console.log(speakWord + " " + name);
   // }
 
-  byeSpeaker.speak= function (name) {
+  byeSpeaker.speak = function (name) {
     console.log(speakWord + " " + name);
   }
 
@@ -30,7 +30,7 @@
   window.byeSpeaker = byeSpeaker;
 
   // Additional speakSimple function
-  byeSpeaker.speakSimple= function (name) {
+  byeSpeaker.speakSimple = function (name) {
     return (speakWord + " " + name);
   }
 

@@ -27,7 +27,7 @@
   window.helloSpeaker = helloSpeaker;
 
   // Additional speakSimple function
-  helloSpeaker.speakSimple= function (name) {
+  helloSpeaker.speakSimple = function (name) {
     return (speakWord + " " + name);
   }
 

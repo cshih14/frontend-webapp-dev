@@ -66,8 +66,10 @@ for (var i = 0; i < names.length; i++) {
 
 // Additional part with Array.map()
 const map1 = names.map((x) => doSpeakSimple(x));
-
-console.log(map1);
+// console.log(map1);
+for (var i = 0; i < map1.length; i++) {
+  console.log(map1[i])
+}
 
 })();
 
