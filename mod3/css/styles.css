@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #000000;
+}
+
+section {
+    background-color: #cacaca;
+    margin: 16px 20px;
+}
+
+section > * {
+    margin: 2px;
+    padding: 4px 8px 4px 8px;
+    clear: right;
+}
+
+#header-top {
+    margin-top: 0px;
+}
+
+.navbar-brand h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+/********** Mobile only **********/
+@media (max-width: 767px) {
+    #collapsable-nav {
+        background-color: #f6b319;
+    }
+    #collapsable-nav a{
+        color: #000000;
+    }
+    #collapsable-nav hr {
+        margin: 5px;
+    }
+}
