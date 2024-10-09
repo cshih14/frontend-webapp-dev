@@ -1,0 +1,14 @@
+.message { 
+    font-size: 1.3em; 
+    font-weight: bold; 
+}
+
+.warning-message {
+    border: 1px solid #d60400;
+    color: #d60400;
+}
+
+.success-message {
+    border: 1px solid #149817;
+    color: #149817;
+}
