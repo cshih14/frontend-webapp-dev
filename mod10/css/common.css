@@ -18,3 +18,28 @@
 .ui-view-placeholder {
     margin-top: 60px;
 }
+
+/* SIGN UP PAGE */
+
+form[name="signupForm"] input {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  form[name="signupForm"] button {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .ng-touched.ng-valid {
+    border: 4px green solid;
+  }
+  
+  .ng-touched.ng-invalid {
+    border: 4px red solid;
+  }
+  
+  /* SIGN UP PAGE */
